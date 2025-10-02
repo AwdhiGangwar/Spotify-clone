@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your index.css or global.css file */
+
+/* In your index.css or global.css */
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    color-scheme: dark;
+  }
+  
+  /* Apply font globally using the body tag or your default styles */
+  body {
+    font-family: var(--font-primary);
+  }
+  /* Hide scrollbar but allow scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+.scrollable-container::-webkit-scrollbar {
+  display: none;  /* Hides the scrollbar in Webkit browsers */
+}
+
+.scrollable-container {
+  -ms-overflow-style: none;  /* Hides scrollbar in Internet Explorer 10+ */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
