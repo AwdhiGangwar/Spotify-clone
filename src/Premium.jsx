@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './PremiumComponents/nav'
+import Nav from './PremiumComponents/Nav'
 import Footer from './PremiumComponents/footer'
 import MainBody from './PremiumComponents/MainBody'
 const Premium = () => {
